@@ -4,11 +4,11 @@ from app.curd_operation import (
 
 
 def main():
-    # add_student("Dilli", "d@d.com", "password567")
+    add_student("Dilli", "d@d.com", "password567")
     view_students()
-    # update_student(3, name="John Wick", email="jk@jk.com")
-    # delete_student(2)
-    # get_teachers(3)
+    update_student(3, name="John Wick", email="jk@jk.com")
+    delete_student(2)
+    get_teachers(3)
 
 
 if __name__ == "__main__":
